@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+body{
+    /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTE0IJLrkPSXcamJZV8RxNKnoAuQNGl0FZHbA&s); */
+    background-size: cover; 
+    background-attachment: fixed;
+    background-position: center; 
+    background-repeat: no-repeat;
+    overflow: hidden; 
+}
+h1{
+text-shadow: 3px 5px 2px lightgray;
+margin-top: 10px;
+margin-bottom: 20px;
+}
+#game{
+    width: 400px;
+    height: 500px;
+    border: 4px solid black;
+    margin: auto; 
+    background-color: lightcyan;
+}
+
+#character{
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border:1px solid black ;
+    border-radius: 50%;
+    position: relative;
+    top: 440px;
+    left: 190px;
+    z-index: 1000000;/*  to let the ball stay top */
+    
+}
+.block{
+    width: 400px;
+    height: 20px;
+    background-color: black;
+    position: relative;
+    top: 100px;
+    margin-top: -20px;
+}
+.hole{
+    width: 40px;
+    height: 20px;
+    background-color:lightcyan;
+    position: relative;
+    top: 100px;
+    margin-top: -20px;
+}
